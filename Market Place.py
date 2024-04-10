@@ -264,7 +264,7 @@ def marketplace(username):
     print('6. Account Details')
     print('7. Log-out')
 
-    choice = input('Enter choice: ')
+    choice = int(input('Enter choice: '))
     if choice == 1:
         display_market(username)
     elif choice == 2:
